@@ -10,18 +10,17 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [
-    [
-      "@nuxtjs/google-fonts",
-      {
-        display: "swap",
-        subsets: "latin",
-        families: {
-          Poppins: {
-            wght: ["400", "700", "500"],
-          },
-        },
+  modules: ["@nuxtjs/google-fonts", "shadcn-nuxt"],
+  googleFonts: {
+    display: "swap",
+    subsets: "latin",
+    families: {
+      Poppins: {
+        wght: ["400", "700", "500"],
       },
-    ],
-  ],
+    },
+  },
+  shadcn: {
+    componentDir: "./components/ui",
+  },
 });
