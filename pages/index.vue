@@ -1,3 +1,4 @@
 <template>
-  <div>tailwindcss</div>
+  <div class="font-bold">tailwindcss</div>
+  <span class="font-bold">tailwindcss</span>
 </template>
