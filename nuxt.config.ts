@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/google-fonts", "shadcn-nuxt"],
+  modules: ["@nuxtjs/google-fonts", "shadcn-nuxt", "@nuxtjs/apollo"],
   googleFonts: {
     display: "swap",
     subsets: "latin",
@@ -22,5 +22,13 @@ export default defineNuxtConfig({
   },
   shadcn: {
     componentDir: "./components/ui",
+    prefix: "",
+  },
+  apollo: {
+    clients: {
+      default: {
+        httpEndpoint: "https://graphql-pokeapi.graphcdn.app/",
+      },
+    },
   },
 });

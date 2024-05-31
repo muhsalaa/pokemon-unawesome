@@ -34,6 +34,44 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    /* --fighting: #c22e28;
+    --normal: #a8a77a;
+    --flying: #a98ff3;
+    --poison: #a33ea1;
+    --ground: #e2bf65;
+    --rock: #b6a136;
+    --bug: #a6b91a;
+    --ghost: #735797;
+    --steel: #b7b7ce;
+    --fire: #ee8130;
+    --water: #6390f0;
+    --grass: #7ac74c;
+    --electric: #6fbcf0;
+    --psychic: #f95587;
+    --ice: #96d9d6;
+    --dragon: #6f35fc;
+    --dark: #705746;
+    --fairy: #d685ad; */
+
+    --normal: 168, 167, 122;
+    --fighting: 194, 46, 40;
+    --flying: 169, 143, 243;
+    --poison: 163, 62, 161;
+    --ground: 226, 191, 101;
+    --rock: 182, 161, 54;
+    --bug: 166, 185, 26;
+    --ghost: 115, 87, 151;
+    --steel: 183, 183, 206;
+    --fire: 238, 129, 48;
+    --water: 99, 144, 240;
+    --grass: 122, 199, 76;
+    --electric: 247, 208, 44;
+    --psychic: 249, 85, 135;
+    --ice: 150, 217, 214;
+    --dragon: 111, 53, 252;
+    --dark: 112, 87, 70;
+    --fairy: 214, 133, 173;
   }
 
   .dark {
